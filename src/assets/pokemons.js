@@ -1,5 +1,7 @@
-[
-  {
+import {pokemonImages, pokemonShinyImages} from './imageLibrary';
+
+
+const pokemonsList = [{
     "id": 1,
     "name": {
       "english": "Bulbasaur",
@@ -18,8 +20,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 65,
       "Speed": 45
-    },
-    "image": "http://localhost:3000/assets/pokemons/1.png"
+    }
   },
   {
     "id": 2,
@@ -40,8 +41,7 @@
       "Sp. Attack": 80,
       "Sp. Defense": 80,
       "Speed": 60
-    },
-    "image": "http://localhost:3000/assets/pokemons/2.png"
+    }
   },
   {
     "id": 3,
@@ -62,8 +62,7 @@
       "Sp. Attack": 100,
       "Sp. Defense": 100,
       "Speed": 80
-    },
-    "image": "http://localhost:3000/assets/pokemons/3.png"
+    }
   },
   {
     "id": 4,
@@ -83,8 +82,7 @@
       "Sp. Attack": 60,
       "Sp. Defense": 50,
       "Speed": 65
-    },
-    "image": "http://localhost:3000/assets/pokemons/4.png"
+    }
   },
   {
     "id": 5,
@@ -104,8 +102,7 @@
       "Sp. Attack": 80,
       "Sp. Defense": 65,
       "Speed": 80
-    },
-    "image": "http://localhost:3000/assets/pokemons/5.png"
+    }
   },
   {
     "id": 6,
@@ -126,8 +123,7 @@
       "Sp. Attack": 109,
       "Sp. Defense": 85,
       "Speed": 100
-    },
-    "image": "http://localhost:3000/assets/pokemons/6.png"
+    }
   },
   {
     "id": 7,
@@ -147,8 +143,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 64,
       "Speed": 43
-    },
-    "image": "http://localhost:3000/assets/pokemons/7.png"
+    }
   },
   {
     "id": 8,
@@ -168,8 +163,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 80,
       "Speed": 58
-    },
-    "image": "http://localhost:3000/assets/pokemons/8.png"
+    }
   },
   {
     "id": 9,
@@ -189,8 +183,7 @@
       "Sp. Attack": 85,
       "Sp. Defense": 105,
       "Speed": 78
-    },
-    "image": "http://localhost:3000/assets/pokemons/9.png"
+    }
   },
   {
     "id": 10,
@@ -210,8 +203,7 @@
       "Sp. Attack": 20,
       "Sp. Defense": 20,
       "Speed": 45
-    },
-    "image": "http://localhost:3000/assets/pokemons/10.png"
+    }
   },
   {
     "id": 11,
@@ -231,8 +223,7 @@
       "Sp. Attack": 25,
       "Sp. Defense": 25,
       "Speed": 30
-    },
-    "image": "http://localhost:3000/assets/pokemons/11.png"
+    }
   },
   {
     "id": 12,
@@ -253,8 +244,7 @@
       "Sp. Attack": 90,
       "Sp. Defense": 80,
       "Speed": 70
-    },
-    "image": "http://localhost:3000/assets/pokemons/12.png"
+    }
   },
   {
     "id": 13,
@@ -275,8 +265,7 @@
       "Sp. Attack": 20,
       "Sp. Defense": 20,
       "Speed": 50
-    },
-    "image": "http://localhost:3000/assets/pokemons/13.png"
+    }
   },
   {
     "id": 14,
@@ -297,8 +286,7 @@
       "Sp. Attack": 25,
       "Sp. Defense": 25,
       "Speed": 35
-    },
-    "image": "http://localhost:3000/assets/pokemons/14.png"
+    }
   },
   {
     "id": 15,
@@ -319,8 +307,7 @@
       "Sp. Attack": 45,
       "Sp. Defense": 80,
       "Speed": 75
-    },
-    "image": "http://localhost:3000/assets/pokemons/15.png"
+    }
   },
   {
     "id": 16,
@@ -341,8 +328,7 @@
       "Sp. Attack": 35,
       "Sp. Defense": 35,
       "Speed": 56
-    },
-    "image": "http://localhost:3000/assets/pokemons/16.png"
+    }
   },
   {
     "id": 17,
@@ -363,8 +349,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 71
-    },
-    "image": "http://localhost:3000/assets/pokemons/17.png"
+    }
   },
   {
     "id": 18,
@@ -385,8 +370,7 @@
       "Sp. Attack": 70,
       "Sp. Defense": 70,
       "Speed": 101
-    },
-    "image": "http://localhost:3000/assets/pokemons/18.png"
+    }
   },
   {
     "id": 19,
@@ -406,8 +390,7 @@
       "Sp. Attack": 25,
       "Sp. Defense": 35,
       "Speed": 72
-    },
-    "image": "http://localhost:3000/assets/pokemons/19.png"
+    }
   },
   {
     "id": 20,
@@ -427,8 +410,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 70,
       "Speed": 97
-    },
-    "image": "http://localhost:3000/assets/pokemons/20.png"
+    }
   },
   {
     "id": 21,
@@ -449,8 +431,7 @@
       "Sp. Attack": 31,
       "Sp. Defense": 31,
       "Speed": 70
-    },
-    "image": "http://localhost:3000/assets/pokemons/21.png"
+    }
   },
   {
     "id": 22,
@@ -471,8 +452,7 @@
       "Sp. Attack": 61,
       "Sp. Defense": 61,
       "Speed": 100
-    },
-    "image": "http://localhost:3000/assets/pokemons/22.png"
+    }
   },
   {
     "id": 23,
@@ -492,8 +472,7 @@
       "Sp. Attack": 40,
       "Sp. Defense": 54,
       "Speed": 55
-    },
-    "image": "http://localhost:3000/assets/pokemons/23.png"
+    }
   },
   {
     "id": 24,
@@ -513,8 +492,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 79,
       "Speed": 80
-    },
-    "image": "http://localhost:3000/assets/pokemons/24.png"
+    }
   },
   {
     "id": 25,
@@ -534,8 +512,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 90
-    },
-    "image": "http://localhost:3000/assets/pokemons/25.png"
+    }
   },
   {
     "id": 26,
@@ -555,8 +532,7 @@
       "Sp. Attack": 90,
       "Sp. Defense": 80,
       "Speed": 110
-    },
-    "image": "http://localhost:3000/assets/pokemons/26.png"
+    }
   },
   {
     "id": 27,
@@ -576,8 +552,7 @@
       "Sp. Attack": 20,
       "Sp. Defense": 30,
       "Speed": 40
-    },
-    "image": "http://localhost:3000/assets/pokemons/27.png"
+    }
   },
   {
     "id": 28,
@@ -597,8 +572,7 @@
       "Sp. Attack": 45,
       "Sp. Defense": 55,
       "Speed": 65
-    },
-    "image": "http://localhost:3000/assets/pokemons/28.png"
+    }
   },
   {
     "id": 29,
@@ -618,8 +592,7 @@
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 41
-    },
-    "image": "http://localhost:3000/assets/pokemons/29.png"
+    }
   },
   {
     "id": 30,
@@ -639,8 +612,7 @@
       "Sp. Attack": 55,
       "Sp. Defense": 55,
       "Speed": 56
-    },
-    "image": "http://localhost:3000/assets/pokemons/30.png"
+    }
   },
   {
     "id": 31,
@@ -661,8 +633,7 @@
       "Sp. Attack": 75,
       "Sp. Defense": 85,
       "Speed": 76
-    },
-    "image": "http://localhost:3000/assets/pokemons/31.png"
+    }
   },
   {
     "id": 32,
@@ -682,8 +653,7 @@
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 50
-    },
-    "image": "http://localhost:3000/assets/pokemons/32.png"
+    }
   },
   {
     "id": 33,
@@ -703,8 +673,7 @@
       "Sp. Attack": 55,
       "Sp. Defense": 55,
       "Speed": 65
-    },
-    "image": "http://localhost:3000/assets/pokemons/33.png"
+    }
   },
   {
     "id": 34,
@@ -725,8 +694,7 @@
       "Sp. Attack": 85,
       "Sp. Defense": 75,
       "Speed": 85
-    },
-    "image": "http://localhost:3000/assets/pokemons/34.png"
+    }
   },
   {
     "id": 35,
@@ -746,8 +714,7 @@
       "Sp. Attack": 60,
       "Sp. Defense": 65,
       "Speed": 35
-    },
-    "image": "http://localhost:3000/assets/pokemons/35.png"
+    }
   },
   {
     "id": 36,
@@ -767,8 +734,7 @@
       "Sp. Attack": 95,
       "Sp. Defense": 90,
       "Speed": 60
-    },
-    "image": "http://localhost:3000/assets/pokemons/36.png"
+    }
   },
   {
     "id": 37,
@@ -788,8 +754,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 65,
       "Speed": 65
-    },
-    "image": "http://localhost:3000/assets/pokemons/37.png"
+    }
   },
   {
     "id": 38,
@@ -809,8 +774,7 @@
       "Sp. Attack": 81,
       "Sp. Defense": 100,
       "Speed": 100
-    },
-    "image": "http://localhost:3000/assets/pokemons/38.png"
+    }
   },
   {
     "id": 39,
@@ -831,8 +795,7 @@
       "Sp. Attack": 45,
       "Sp. Defense": 25,
       "Speed": 20
-    },
-    "image": "http://localhost:3000/assets/pokemons/39.png"
+    }
   },
   {
     "id": 40,
@@ -853,8 +816,7 @@
       "Sp. Attack": 85,
       "Sp. Defense": 50,
       "Speed": 45
-    },
-    "image": "http://localhost:3000/assets/pokemons/40.png"
+    }
   },
   {
     "id": 41,
@@ -875,8 +837,7 @@
       "Sp. Attack": 30,
       "Sp. Defense": 40,
       "Speed": 55
-    },
-    "image": "http://localhost:3000/assets/pokemons/41.png"
+    }
   },
   {
     "id": 42,
@@ -897,8 +858,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 75,
       "Speed": 90
-    },
-    "image": "http://localhost:3000/assets/pokemons/42.png"
+    }
   },
   {
     "id": 43,
@@ -919,8 +879,7 @@
       "Sp. Attack": 75,
       "Sp. Defense": 65,
       "Speed": 30
-    },
-    "image": "http://localhost:3000/assets/pokemons/43.png"
+    }
   },
   {
     "id": 44,
@@ -941,8 +900,7 @@
       "Sp. Attack": 85,
       "Sp. Defense": 75,
       "Speed": 40
-    },
-    "image": "http://localhost:3000/assets/pokemons/44.png"
+    }
   },
   {
     "id": 45,
@@ -963,8 +921,7 @@
       "Sp. Attack": 110,
       "Sp. Defense": 90,
       "Speed": 50
-    },
-    "image": "http://localhost:3000/assets/pokemons/45.png"
+    }
   },
   {
     "id": 46,
@@ -985,8 +942,7 @@
       "Sp. Attack": 45,
       "Sp. Defense": 55,
       "Speed": 25
-    },
-    "image": "http://localhost:3000/assets/pokemons/46.png"
+    }
   },
   {
     "id": 47,
@@ -1007,8 +963,7 @@
       "Sp. Attack": 60,
       "Sp. Defense": 80,
       "Speed": 30
-    },
-    "image": "http://localhost:3000/assets/pokemons/47.png"
+    }
   },
   {
     "id": 48,
@@ -1029,8 +984,7 @@
       "Sp. Attack": 40,
       "Sp. Defense": 55,
       "Speed": 45
-    },
-    "image": "http://localhost:3000/assets/pokemons/48.png"
+    }
   },
   {
     "id": 49,
@@ -1051,8 +1005,7 @@
       "Sp. Attack": 90,
       "Sp. Defense": 75,
       "Speed": 90
-    },
-    "image": "http://localhost:3000/assets/pokemons/49.png"
+    }
   },
   {
     "id": 50,
@@ -1072,8 +1025,7 @@
       "Sp. Attack": 35,
       "Sp. Defense": 45,
       "Speed": 95
-    },
-    "image": "http://localhost:3000/assets/pokemons/50.png"
+    }
   },
   {
     "id": 51,
@@ -1093,8 +1045,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 70,
       "Speed": 120
-    },
-    "image": "http://localhost:3000/assets/pokemons/51.png"
+    }
   },
   {
     "id": 52,
@@ -1114,8 +1065,7 @@
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 90
-    },
-    "image": "http://localhost:3000/assets/pokemons/52.png"
+    }
   },
   {
     "id": 53,
@@ -1135,8 +1085,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 65,
       "Speed": 115
-    },
-    "image": "http://localhost:3000/assets/pokemons/53.png"
+    }
   },
   {
     "id": 54,
@@ -1156,8 +1105,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 50,
       "Speed": 55
-    },
-    "image": "http://localhost:3000/assets/pokemons/54.png"
+    }
   },
   {
     "id": 55,
@@ -1177,8 +1125,7 @@
       "Sp. Attack": 95,
       "Sp. Defense": 80,
       "Speed": 85
-    },
-    "image": "http://localhost:3000/assets/pokemons/55.png"
+    }
   },
   {
     "id": 56,
@@ -1198,8 +1145,7 @@
       "Sp. Attack": 35,
       "Sp. Defense": 45,
       "Speed": 70
-    },
-    "image": "http://localhost:3000/assets/pokemons/56.png"
+    }
   },
   {
     "id": 57,
@@ -1219,8 +1165,7 @@
       "Sp. Attack": 60,
       "Sp. Defense": 70,
       "Speed": 95
-    },
-    "image": "http://localhost:3000/assets/pokemons/57.png"
+    }
   },
   {
     "id": 58,
@@ -1240,8 +1185,7 @@
       "Sp. Attack": 70,
       "Sp. Defense": 50,
       "Speed": 60
-    },
-    "image": "http://localhost:3000/assets/pokemons/58.png"
+    }
   },
   {
     "id": 59,
@@ -1261,8 +1205,7 @@
       "Sp. Attack": 100,
       "Sp. Defense": 80,
       "Speed": 95
-    },
-    "image": "http://localhost:3000/assets/pokemons/59.png"
+    }
   },
   {
     "id": 60,
@@ -1282,8 +1225,7 @@
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 90
-    },
-    "image": "http://localhost:3000/assets/pokemons/60.png"
+    }
   },
   {
     "id": 61,
@@ -1303,8 +1245,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 90
-    },
-    "image": "http://localhost:3000/assets/pokemons/61.png"
+    }
   },
   {
     "id": 62,
@@ -1325,8 +1266,7 @@
       "Sp. Attack": 70,
       "Sp. Defense": 90,
       "Speed": 70
-    },
-    "image": "http://localhost:3000/assets/pokemons/62.png"
+    }
   },
   {
     "id": 63,
@@ -1346,8 +1286,7 @@
       "Sp. Attack": 105,
       "Sp. Defense": 55,
       "Speed": 90
-    },
-    "image": "http://localhost:3000/assets/pokemons/63.png"
+    }
   },
   {
     "id": 64,
@@ -1367,8 +1306,7 @@
       "Sp. Attack": 120,
       "Sp. Defense": 70,
       "Speed": 105
-    },
-    "image": "http://localhost:3000/assets/pokemons/64.png"
+    }
   },
   {
     "id": 65,
@@ -1388,8 +1326,7 @@
       "Sp. Attack": 135,
       "Sp. Defense": 95,
       "Speed": 120
-    },
-    "image": "http://localhost:3000/assets/pokemons/65.png"
+    }
   },
   {
     "id": 66,
@@ -1409,8 +1346,7 @@
       "Sp. Attack": 35,
       "Sp. Defense": 35,
       "Speed": 35
-    },
-    "image": "http://localhost:3000/assets/pokemons/66.png"
+    }
   },
   {
     "id": 67,
@@ -1430,8 +1366,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 60,
       "Speed": 45
-    },
-    "image": "http://localhost:3000/assets/pokemons/67.png"
+    }
   },
   {
     "id": 68,
@@ -1451,8 +1386,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 85,
       "Speed": 55
-    },
-    "image": "http://localhost:3000/assets/pokemons/68.png"
+    }
   },
   {
     "id": 69,
@@ -1473,8 +1407,7 @@
       "Sp. Attack": 70,
       "Sp. Defense": 30,
       "Speed": 40
-    },
-    "image": "http://localhost:3000/assets/pokemons/69.png"
+    }
   },
   {
     "id": 70,
@@ -1495,8 +1428,7 @@
       "Sp. Attack": 85,
       "Sp. Defense": 45,
       "Speed": 55
-    },
-    "image": "http://localhost:3000/assets/pokemons/70.png"
+    }
   },
   {
     "id": 71,
@@ -1517,8 +1449,7 @@
       "Sp. Attack": 100,
       "Sp. Defense": 70,
       "Speed": 70
-    },
-    "image": "http://localhost:3000/assets/pokemons/71.png"
+    }
   },
   {
     "id": 72,
@@ -1539,8 +1470,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 100,
       "Speed": 70
-    },
-    "image": "http://localhost:3000/assets/pokemons/72.png"
+    }
   },
   {
     "id": 73,
@@ -1561,8 +1491,7 @@
       "Sp. Attack": 80,
       "Sp. Defense": 120,
       "Speed": 100
-    },
-    "image": "http://localhost:3000/assets/pokemons/73.png"
+    }
   },
   {
     "id": 74,
@@ -1583,8 +1512,7 @@
       "Sp. Attack": 30,
       "Sp. Defense": 30,
       "Speed": 20
-    },
-    "image": "http://localhost:3000/assets/pokemons/74.png"
+    }
   },
   {
     "id": 75,
@@ -1605,8 +1533,7 @@
       "Sp. Attack": 45,
       "Sp. Defense": 45,
       "Speed": 35
-    },
-    "image": "http://localhost:3000/assets/pokemons/75.png"
+    }
   },
   {
     "id": 76,
@@ -1627,8 +1554,7 @@
       "Sp. Attack": 55,
       "Sp. Defense": 65,
       "Speed": 45
-    },
-    "image": "http://localhost:3000/assets/pokemons/76.png"
+    }
   },
   {
     "id": 77,
@@ -1648,8 +1574,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 65,
       "Speed": 90
-    },
-    "image": "http://localhost:3000/assets/pokemons/77.png"
+    }
   },
   {
     "id": 78,
@@ -1669,8 +1594,7 @@
       "Sp. Attack": 80,
       "Sp. Defense": 80,
       "Speed": 105
-    },
-    "image": "http://localhost:3000/assets/pokemons/78.png"
+    }
   },
   {
     "id": 79,
@@ -1691,8 +1615,7 @@
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 15
-    },
-    "image": "http://localhost:3000/assets/pokemons/79.png"
+    }
   },
   {
     "id": 80,
@@ -1713,8 +1636,7 @@
       "Sp. Attack": 100,
       "Sp. Defense": 80,
       "Speed": 30
-    },
-    "image": "http://localhost:3000/assets/pokemons/80.png"
+    }
   },
   {
     "id": 81,
@@ -1735,8 +1657,7 @@
       "Sp. Attack": 95,
       "Sp. Defense": 55,
       "Speed": 45
-    },
-    "image": "http://localhost:3000/assets/pokemons/81.png"
+    }
   },
   {
     "id": 82,
@@ -1757,8 +1678,7 @@
       "Sp. Attack": 120,
       "Sp. Defense": 70,
       "Speed": 70
-    },
-    "image": "http://localhost:3000/assets/pokemons/82.png"
+    }
   },
   {
     "id": 83,
@@ -1779,8 +1699,7 @@
       "Sp. Attack": 58,
       "Sp. Defense": 62,
       "Speed": 60
-    },
-    "image": "http://localhost:3000/assets/pokemons/83.png"
+    }
   },
   {
     "id": 84,
@@ -1801,8 +1720,7 @@
       "Sp. Attack": 35,
       "Sp. Defense": 35,
       "Speed": 75
-    },
-    "image": "http://localhost:3000/assets/pokemons/84.png"
+    }
   },
   {
     "id": 85,
@@ -1823,8 +1741,7 @@
       "Sp. Attack": 60,
       "Sp. Defense": 60,
       "Speed": 110
-    },
-    "image": "http://localhost:3000/assets/pokemons/85.png"
+    }
   },
   {
     "id": 86,
@@ -1844,8 +1761,7 @@
       "Sp. Attack": 45,
       "Sp. Defense": 70,
       "Speed": 45
-    },
-    "image": "http://localhost:3000/assets/pokemons/86.png"
+    }
   },
   {
     "id": 87,
@@ -1866,8 +1782,7 @@
       "Sp. Attack": 70,
       "Sp. Defense": 95,
       "Speed": 70
-    },
-    "image": "http://localhost:3000/assets/pokemons/87.png"
+    }
   },
   {
     "id": 88,
@@ -1887,8 +1802,7 @@
       "Sp. Attack": 40,
       "Sp. Defense": 50,
       "Speed": 25
-    },
-    "image": "http://localhost:3000/assets/pokemons/88.png"
+    }
   },
   {
     "id": 89,
@@ -1908,8 +1822,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 100,
       "Speed": 50
-    },
-    "image": "http://localhost:3000/assets/pokemons/89.png"
+    }
   },
   {
     "id": 90,
@@ -1929,8 +1842,7 @@
       "Sp. Attack": 45,
       "Sp. Defense": 25,
       "Speed": 40
-    },
-    "image": "http://localhost:3000/assets/pokemons/90.png"
+    }
   },
   {
     "id": 91,
@@ -1951,8 +1863,7 @@
       "Sp. Attack": 85,
       "Sp. Defense": 45,
       "Speed": 70
-    },
-    "image": "http://localhost:3000/assets/pokemons/91.png"
+    }
   },
   {
     "id": 92,
@@ -1973,8 +1884,7 @@
       "Sp. Attack": 100,
       "Sp. Defense": 35,
       "Speed": 80
-    },
-    "image": "http://localhost:3000/assets/pokemons/92.png"
+    }
   },
   {
     "id": 93,
@@ -1995,8 +1905,7 @@
       "Sp. Attack": 115,
       "Sp. Defense": 55,
       "Speed": 95
-    },
-    "image": "http://localhost:3000/assets/pokemons/93.png"
+    }
   },
   {
     "id": 94,
@@ -2017,8 +1926,7 @@
       "Sp. Attack": 130,
       "Sp. Defense": 75,
       "Speed": 110
-    },
-    "image": "http://localhost:3000/assets/pokemons/94.png"
+    }
   },
   {
     "id": 95,
@@ -2039,8 +1947,7 @@
       "Sp. Attack": 30,
       "Sp. Defense": 45,
       "Speed": 70
-    },
-    "image": "http://localhost:3000/assets/pokemons/95.png"
+    }
   },
   {
     "id": 96,
@@ -2060,8 +1967,7 @@
       "Sp. Attack": 43,
       "Sp. Defense": 90,
       "Speed": 42
-    },
-    "image": "http://localhost:3000/assets/pokemons/96.png"
+    }
   },
   {
     "id": 97,
@@ -2081,8 +1987,7 @@
       "Sp. Attack": 73,
       "Sp. Defense": 115,
       "Speed": 67
-    },
-    "image": "http://localhost:3000/assets/pokemons/97.png"
+    }
   },
   {
     "id": 98,
@@ -2102,8 +2007,7 @@
       "Sp. Attack": 25,
       "Sp. Defense": 25,
       "Speed": 50
-    },
-    "image": "http://localhost:3000/assets/pokemons/98.png"
+    }
   },
   {
     "id": 99,
@@ -2123,8 +2027,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 75
-    },
-    "image": "http://localhost:3000/assets/pokemons/99.png"
+    }
   },
   {
     "id": 100,
@@ -2144,8 +2047,7 @@
       "Sp. Attack": 55,
       "Sp. Defense": 55,
       "Speed": 100
-    },
-    "image": "http://localhost:3000/assets/pokemons/100.png"
+    }
   },
   {
     "id": 101,
@@ -2165,8 +2067,7 @@
       "Sp. Attack": 80,
       "Sp. Defense": 80,
       "Speed": 150
-    },
-    "image": "http://localhost:3000/assets/pokemons/101.png"
+    }
   },
   {
     "id": 102,
@@ -2187,8 +2088,7 @@
       "Sp. Attack": 60,
       "Sp. Defense": 45,
       "Speed": 40
-    },
-    "image": "http://localhost:3000/assets/pokemons/102.png"
+    }
   },
   {
     "id": 103,
@@ -2209,8 +2109,7 @@
       "Sp. Attack": 125,
       "Sp. Defense": 75,
       "Speed": 55
-    },
-    "image": "http://localhost:3000/assets/pokemons/103.png"
+    }
   },
   {
     "id": 104,
@@ -2230,8 +2129,7 @@
       "Sp. Attack": 40,
       "Sp. Defense": 50,
       "Speed": 35
-    },
-    "image": "http://localhost:3000/assets/pokemons/104.png"
+    }
   },
   {
     "id": 105,
@@ -2251,8 +2149,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 80,
       "Speed": 45
-    },
-    "image": "http://localhost:3000/assets/pokemons/105.png"
+    }
   },
   {
     "id": 106,
@@ -2272,8 +2169,7 @@
       "Sp. Attack": 35,
       "Sp. Defense": 110,
       "Speed": 87
-    },
-    "image": "http://localhost:3000/assets/pokemons/106.png"
+    }
   },
   {
     "id": 107,
@@ -2293,8 +2189,7 @@
       "Sp. Attack": 35,
       "Sp. Defense": 110,
       "Speed": 76
-    },
-    "image": "http://localhost:3000/assets/pokemons/107.png"
+    }
   },
   {
     "id": 108,
@@ -2314,8 +2209,7 @@
       "Sp. Attack": 60,
       "Sp. Defense": 75,
       "Speed": 30
-    },
-    "image": "http://localhost:3000/assets/pokemons/108.png"
+    }
   },
   {
     "id": 109,
@@ -2335,8 +2229,7 @@
       "Sp. Attack": 60,
       "Sp. Defense": 45,
       "Speed": 35
-    },
-    "image": "http://localhost:3000/assets/pokemons/109.png"
+    }
   },
   {
     "id": 110,
@@ -2356,8 +2249,7 @@
       "Sp. Attack": 85,
       "Sp. Defense": 70,
       "Speed": 60
-    },
-    "image": "http://localhost:3000/assets/pokemons/110.png"
+    }
   },
   {
     "id": 111,
@@ -2378,8 +2270,7 @@
       "Sp. Attack": 30,
       "Sp. Defense": 30,
       "Speed": 25
-    },
-    "image": "http://localhost:3000/assets/pokemons/111.png"
+    }
   },
   {
     "id": 112,
@@ -2400,8 +2291,7 @@
       "Sp. Attack": 45,
       "Sp. Defense": 45,
       "Speed": 40
-    },
-    "image": "http://localhost:3000/assets/pokemons/112.png"
+    }
   },
   {
     "id": 113,
@@ -2421,8 +2311,7 @@
       "Sp. Attack": 35,
       "Sp. Defense": 105,
       "Speed": 50
-    },
-    "image": "http://localhost:3000/assets/pokemons/113.png"
+    }
   },
   {
     "id": 114,
@@ -2442,8 +2331,7 @@
       "Sp. Attack": 100,
       "Sp. Defense": 40,
       "Speed": 60
-    },
-    "image": "http://localhost:3000/assets/pokemons/114.png"
+    }
   },
   {
     "id": 115,
@@ -2463,8 +2351,7 @@
       "Sp. Attack": 40,
       "Sp. Defense": 80,
       "Speed": 90
-    },
-    "image": "http://localhost:3000/assets/pokemons/115.png"
+    }
   },
   {
     "id": 116,
@@ -2484,8 +2371,7 @@
       "Sp. Attack": 70,
       "Sp. Defense": 25,
       "Speed": 60
-    },
-    "image": "http://localhost:3000/assets/pokemons/116.png"
+    }
   },
   {
     "id": 117,
@@ -2505,8 +2391,7 @@
       "Sp. Attack": 95,
       "Sp. Defense": 45,
       "Speed": 85
-    },
-    "image": "http://localhost:3000/assets/pokemons/117.png"
+    }
   },
   {
     "id": 118,
@@ -2526,8 +2411,7 @@
       "Sp. Attack": 35,
       "Sp. Defense": 50,
       "Speed": 63
-    },
-    "image": "http://localhost:3000/assets/pokemons/118.png"
+    }
   },
   {
     "id": 119,
@@ -2547,8 +2431,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 80,
       "Speed": 68
-    },
-    "image": "http://localhost:3000/assets/pokemons/119.png"
+    }
   },
   {
     "id": 120,
@@ -2568,8 +2451,7 @@
       "Sp. Attack": 70,
       "Sp. Defense": 55,
       "Speed": 85
-    },
-    "image": "http://localhost:3000/assets/pokemons/120.png"
+    }
   },
   {
     "id": 121,
@@ -2590,8 +2472,7 @@
       "Sp. Attack": 100,
       "Sp. Defense": 85,
       "Speed": 115
-    },
-    "image": "http://localhost:3000/assets/pokemons/121.png"
+    }
   },
   {
     "id": 122,
@@ -2612,8 +2493,7 @@
       "Sp. Attack": 100,
       "Sp. Defense": 120,
       "Speed": 90
-    },
-    "image": "http://localhost:3000/assets/pokemons/122.png"
+    }
   },
   {
     "id": 123,
@@ -2634,8 +2514,7 @@
       "Sp. Attack": 55,
       "Sp. Defense": 80,
       "Speed": 105
-    },
-    "image": "http://localhost:3000/assets/pokemons/123.png"
+    }
   },
   {
     "id": 124,
@@ -2656,8 +2535,7 @@
       "Sp. Attack": 115,
       "Sp. Defense": 95,
       "Speed": 95
-    },
-    "image": "http://localhost:3000/assets/pokemons/124.png"
+    }
   },
   {
     "id": 125,
@@ -2677,8 +2555,7 @@
       "Sp. Attack": 95,
       "Sp. Defense": 85,
       "Speed": 105
-    },
-    "image": "http://localhost:3000/assets/pokemons/125.png"
+    }
   },
   {
     "id": 126,
@@ -2698,8 +2575,7 @@
       "Sp. Attack": 100,
       "Sp. Defense": 85,
       "Speed": 93
-    },
-    "image": "http://localhost:3000/assets/pokemons/126.png"
+    }
   },
   {
     "id": 127,
@@ -2719,8 +2595,7 @@
       "Sp. Attack": 55,
       "Sp. Defense": 70,
       "Speed": 85
-    },
-    "image": "http://localhost:3000/assets/pokemons/127.png"
+    }
   },
   {
     "id": 128,
@@ -2740,8 +2615,7 @@
       "Sp. Attack": 40,
       "Sp. Defense": 70,
       "Speed": 110
-    },
-    "image": "http://localhost:3000/assets/pokemons/128.png"
+    }
   },
   {
     "id": 129,
@@ -2761,8 +2635,7 @@
       "Sp. Attack": 15,
       "Sp. Defense": 20,
       "Speed": 80
-    },
-    "image": "http://localhost:3000/assets/pokemons/129.png"
+    }
   },
   {
     "id": 130,
@@ -2783,8 +2656,7 @@
       "Sp. Attack": 60,
       "Sp. Defense": 100,
       "Speed": 81
-    },
-    "image": "http://localhost:3000/assets/pokemons/130.png"
+    }
   },
   {
     "id": 131,
@@ -2805,8 +2677,7 @@
       "Sp. Attack": 85,
       "Sp. Defense": 95,
       "Speed": 60
-    },
-    "image": "http://localhost:3000/assets/pokemons/131.png"
+    }
   },
   {
     "id": 132,
@@ -2826,8 +2697,7 @@
       "Sp. Attack": 48,
       "Sp. Defense": 48,
       "Speed": 48
-    },
-    "image": "http://localhost:3000/assets/pokemons/132.png"
+    }
   },
   {
     "id": 133,
@@ -2847,8 +2717,7 @@
       "Sp. Attack": 45,
       "Sp. Defense": 65,
       "Speed": 55
-    },
-    "image": "http://localhost:3000/assets/pokemons/133.png"
+    }
   },
   {
     "id": 134,
@@ -2868,8 +2737,7 @@
       "Sp. Attack": 110,
       "Sp. Defense": 95,
       "Speed": 65
-    },
-    "image": "http://localhost:3000/assets/pokemons/134.png"
+    }
   },
   {
     "id": 135,
@@ -2889,8 +2757,7 @@
       "Sp. Attack": 110,
       "Sp. Defense": 95,
       "Speed": 130
-    },
-    "image": "http://localhost:3000/assets/pokemons/135.png"
+    }
   },
   {
     "id": 136,
@@ -2910,8 +2777,7 @@
       "Sp. Attack": 95,
       "Sp. Defense": 110,
       "Speed": 65
-    },
-    "image": "http://localhost:3000/assets/pokemons/136.png"
+    }
   },
   {
     "id": 137,
@@ -2931,8 +2797,7 @@
       "Sp. Attack": 85,
       "Sp. Defense": 75,
       "Speed": 40
-    },
-    "image": "http://localhost:3000/assets/pokemons/137.png"
+    }
   },
   {
     "id": 138,
@@ -2953,8 +2818,7 @@
       "Sp. Attack": 90,
       "Sp. Defense": 55,
       "Speed": 35
-    },
-    "image": "http://localhost:3000/assets/pokemons/138.png"
+    }
   },
   {
     "id": 139,
@@ -2975,8 +2839,7 @@
       "Sp. Attack": 115,
       "Sp. Defense": 70,
       "Speed": 55
-    },
-    "image": "http://localhost:3000/assets/pokemons/139.png"
+    }
   },
   {
     "id": 140,
@@ -2997,8 +2860,7 @@
       "Sp. Attack": 55,
       "Sp. Defense": 45,
       "Speed": 55
-    },
-    "image": "http://localhost:3000/assets/pokemons/140.png"
+    }
   },
   {
     "id": 141,
@@ -3019,8 +2881,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 70,
       "Speed": 80
-    },
-    "image": "http://localhost:3000/assets/pokemons/141.png"
+    }
   },
   {
     "id": 142,
@@ -3041,8 +2902,7 @@
       "Sp. Attack": 60,
       "Sp. Defense": 75,
       "Speed": 130
-    },
-    "image": "http://localhost:3000/assets/pokemons/142.png"
+    }
   },
   {
     "id": 143,
@@ -3062,8 +2922,7 @@
       "Sp. Attack": 65,
       "Sp. Defense": 110,
       "Speed": 30
-    },
-    "image": "http://localhost:3000/assets/pokemons/143.png"
+    }
   },
   {
     "id": 144,
@@ -3084,8 +2943,7 @@
       "Sp. Attack": 95,
       "Sp. Defense": 125,
       "Speed": 85
-    },
-    "image": "http://localhost:3000/assets/pokemons/144.png"
+    }
   },
   {
     "id": 145,
@@ -3106,8 +2964,7 @@
       "Sp. Attack": 125,
       "Sp. Defense": 90,
       "Speed": 100
-    },
-    "image": "http://localhost:3000/assets/pokemons/145.png"
+    }
   },
   {
     "id": 146,
@@ -3128,8 +2985,7 @@
       "Sp. Attack": 125,
       "Sp. Defense": 85,
       "Speed": 90
-    },
-    "image": "http://localhost:3000/assets/pokemons/146.png"
+    }
   },
   {
     "id": 147,
@@ -3149,8 +3005,7 @@
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 50
-    },
-    "image": "http://localhost:3000/assets/pokemons/147.png"
+    }
   },
   {
     "id": 148,
@@ -3170,8 +3025,7 @@
       "Sp. Attack": 70,
       "Sp. Defense": 70,
       "Speed": 70
-    },
-    "image": "http://localhost:3000/assets/pokemons/148.png"
+    }
   },
   {
     "id": 149,
@@ -3192,8 +3046,7 @@
       "Sp. Attack": 100,
       "Sp. Defense": 100,
       "Speed": 80
-    },
-    "image": "http://localhost:3000/assets/pokemons/149.png"
+    }
   },
   {
     "id": 150,
@@ -3213,8 +3066,7 @@
       "Sp. Attack": 154,
       "Sp. Defense": 90,
       "Speed": 130
-    },
-    "image": "http://localhost:3000/assets/pokemons/150.png"
+    }
   },
   {
     "id": 151,
@@ -3234,29 +3086,12 @@
       "Sp. Attack": 100,
       "Sp. Defense": 100,
       "Speed": 100
-    },
-    "image": "http://localhost:3000/assets/pokemons/151.png"
-  },
-  {
-    "id": 156,
-    "name": {
-      "english": "Bulbasaur",
-      "japanese": "フシギダネ",
-      "chinese": "妙蛙种子",
-      "french": "Bulbizarre"
-    },
-    "type": [
-      "Grass",
-      "Poison"
-    ],
-    "base": {
-      "HP": 45,
-      "Attack": 49,
-      "Defense": 49,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
-      "Speed": 45
-    },
-    "image": "/assets/pokemons/156.png"
+    }
   }
 ]
+
+export default pokemonsList.map((pokemon) => ({
+  ...pokemon,
+  image: pokemonImages[pokemon.id],
+  imageShiny: pokemonShinyImages[pokemon.id]
+}));
