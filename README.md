@@ -7,7 +7,7 @@ Ce projet est une application complète de gestion de Pokémon, composée d'un *
 
 # Vidéo de présentation du projet
 
-[ Retrouver la vidéo youtube de mon projet ici ]()
+[ Retrouver la vidéo youtube de mon projet ici ](https://youtu.be/CD67CT3wUJ8)
 
 ## Technologies utilisées
 
@@ -29,6 +29,9 @@ Ce projet est une application complète de gestion de Pokémon, composée d'un *
 - **Sécurisation par authentification** : Inscription et connexion sécurisées via des tokens JWT. Ces tokens sont stockés de manière sécurisée côté client et sont utilisés pour protéger l'accès aux fonctionnalités sensibles.
 - **Protection des routes** : Accès limité aux pages et fonctionnalités privées selon l’état de connexion de l’utilisateur, garantissant ainsi une expérience personnalisée et sécurisée. Certaines pages et fonctionnalités sont protégées pour garantir que seuls les utilisateurs authentifiés puissent y accéder. Cette protection est assurée via un composant personnalisé appelé **PrivateRoute**.
 - **Déconnexion sécurisée** : Supprimez proprement votre token et les informations utilisateur à la déconnexion pour une sécurité optimale.
+
+## Fonctionnalités esthétiques
+- **Style** : J'ai opté pour un style design gameplay pour rappeler l'univers des jeux vidéo. (Coloris, Background animé, style de texte )
 - **Interface responsive** : Profitez d'une expérience fluide, quelle que soit la taille de votre écran, que ce soit sur ordinateur, tablette ou mobile.
 
 
