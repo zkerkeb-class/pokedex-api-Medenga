@@ -23,6 +23,6 @@ const pokemonSchema = new mongoose.Schema({
   image: { type: String },
 }, { collection: 'Pokemon' });
 
-const Pokemon = mongoose.model('Pokemon', pokemonSchema);
+const Pokemon = mongoose.model('Pokemon2', pokemonSchema);
 
 export default Pokemon;

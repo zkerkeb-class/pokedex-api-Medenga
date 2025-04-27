@@ -70,7 +70,6 @@ router.get('/api/pokemons/:id', user, async (req, res) => {
 });
 
 // POST - Créer un nouveau pokémon
-// POST - Créer un nouveau pokémon
 router.post('/api/pokemons', user, upload.single('image'), async (req, res) => {
   try {
     // Parse proprement les données envoyées en JSON dans "pokemon"
